@@ -1,0 +1,21 @@
+.burgerIconHold {
+    display: none;
+}
+
+.burgerContentHold {
+    display: none;
+}
+
+@media screen and (max-width: 678px) {
+    .burgericonHold {
+        display: block;
+    }
+
+    .navDivs {
+        display: none;
+    }
+
+    .burgerContentHold {
+        display: block;
+    }
+}
